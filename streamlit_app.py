@@ -249,8 +249,6 @@ rutas_de_vendedor_dos_cero, tiempos_recorrido_dos_cero=rutas_de_vendedores(rutas
 
 graficos_de_rutas(rutas_dos_cero,definir_zonados,label_zonados, 0, rutas_de_vendedor_dos_cero)
 
-[ 1  2  6  7 10 14 16 18 24]
-
 rutas,vendedores,cantidad_de_clientes, distancias=ruteo_vendedores(definir_zonados,1,label_zonados,1/15, 0.8,8) #locacion
 rutas_de_vendedor, tiempos_recorrido=rutas_de_vendedores(rutas,distancias, cantidad_de_clientes)
 
